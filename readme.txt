@@ -1,9 +1,9 @@
 === WP Notice Bar ===
 Contributors: sanjushankar
-Tags: notice bar, announcement bar, notification bar, sticky header, alert bar
+Tags: notice bar, announcement bar, notification bar, sticky header, alert bar, rich text editor
 Requires at least: 5.0
 Tested up to: 6.3
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,6 +30,24 @@ WP Notice Bar is a powerful and flexible notice bar plugin that allows you to di
 * **Background Options**: Choose between solid colors, gradients, or images
 * **Custom Opacity**: Control background transparency
 * **Dynamic Spacing**: Automatically adjusts to your theme's header
+* **Rich Text Formatting**: Full WYSIWYG editor with advanced formatting options
+* **Font Size Control**: Choose from multiple font sizes (8px to 36px)
+* **Text Color Options**: 10 predefined colors for text styling
+* **Text Highlighting**: Background color options for text emphasis
+
+= Text Formatting Features =
+
+* Advanced WYSIWYG editor for professional content formatting
+* Font sizes from 8px to 36px for perfect visual hierarchy
+* 10 predefined colors for text and highlighting:
+  * Black, White, Red, Green, Blue
+  * Yellow, Orange, Purple, Pink, Gray
+* Text formatting options:
+  * Bold, italic, underline, strikethrough
+  * Bulleted and numbered lists
+  * Text alignment (left, center, right)
+  * Link creation and management
+* Real-time preview of all formatting changes
 
 = Countdown Timer Features =
 
@@ -69,9 +87,19 @@ Yes, the notice bar is fully responsive and looks great on all devices.
 
 = Can I customize the colors? =
 Yes, the plugin includes WordPress's native color picker, allowing you to visually select and preview:
-* Background colors
-* Text colors
+* Background colors (solid, gradient, or with image)
+* Text colors (10 predefined options)
+* Text highlight/background colors
 Each color picker shows the color code and allows for precise color selection.
+
+= What text formatting options are available? =
+The plugin includes a full WYSIWYG editor with:
+* Multiple font sizes (8px to 36px)
+* Text colors and highlighting
+* Bold, italic, underline, strikethrough
+* Bulleted and numbered lists
+* Text alignment options
+* Link creation and management
 
 = Can I add buttons or links? =
 Yes, you can add custom buttons and links to your notice bar.
@@ -87,6 +115,14 @@ Yes, the plugin includes smooth entrance and exit animations for a professional 
 4. Mobile View
 
 == Changelog ==
+
+= 1.2.0 =
+* Added rich text formatting with WYSIWYG editor
+* Added font size selection (8px to 36px)
+* Added text color options with 10 predefined colors
+* Added text highlighting/background color feature
+* Enhanced text formatting controls (bold, italic, lists, etc.)
+* Improved text alignment options
 
 = 1.1.0 =
 * Added countdown timer feature

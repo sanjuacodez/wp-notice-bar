@@ -472,6 +472,27 @@ class WNB_Settings {
                 break;
 
             case 'editor':
+                // Add custom font sizes and colors to TinyMCE
+                add_filter('tiny_mce_before_init', function($settings) {
+                    $settings['fontsize_formats'] = '8px 10px 12px 14px 16px 18px 20px 24px 28px 32px 36px';
+                    $color_map = [
+                        '"000000", "Black"',
+                        '"FFFFFF", "White"',
+                        '"FF0000", "Red"',
+                        '"00FF00", "Green"',
+                        '"0000FF", "Blue"',
+                        '"FFFF00", "Yellow"',
+                        '"FFA500", "Orange"',
+                        '"800080", "Purple"',
+                        '"FFC0CB", "Pink"',
+                        '"808080", "Gray"'
+                    ];
+                    // Use the same color map for both text and background colors
+                    $settings['textcolor_map'] = '[' . implode(',', $color_map) . ']';
+                    $settings['background_colors'] = '[' . implode(',', $color_map) . ']';
+                    return $settings;
+                });
+
                 wp_editor(
                     $value,
                     'wnb_' . $args['id'],
@@ -479,7 +500,11 @@ class WNB_Settings {
                         'textarea_name' => 'wnb_settings[' . esc_attr($args['id']) . ']',
                         'textarea_rows' => 8,
                         'media_buttons' => true,
-                        'teeny' => true,
+                        'teeny' => false, // Set to false to enable more controls
+                        'tinymce' => array(
+                            'toolbar1' => 'formatselect,fontsizeselect,forecolor,backcolor,bold,italic,underline,strikethrough,bullist,numlist,blockquote,alignleft,aligncenter,alignright,link,unlink,undo,redo',
+                            'toolbar2' => '',
+                        ),
                     )
                 );
                 break;
