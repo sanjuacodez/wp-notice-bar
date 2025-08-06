@@ -1,0 +1,79 @@
+/* Admin Settings Styles */
+.aab-field-wrap {
+    margin-bottom: 15px;
+}
+
+.aab-image-upload-wrap {
+    margin-top: 10px;
+}
+
+.aab-image-preview {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: #f9f9f9;
+}
+
+.aab-image-controls {
+    margin-top: 10px;
+}
+
+.aab-remove-image {
+    margin-left: 10px;
+}
+
+/* Color picker field */
+.wp-picker-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Settings sections */
+.aab-settings-section {
+    margin-bottom: 30px;
+}
+
+.aab-settings-section h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Description text */
+.description {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Form fields */
+.regular-text {
+    width: 25em;
+    max-width: 100%;
+}
+
+/* Editor field */
+.wp-editor-wrap {
+    max-width: 800px;
+}
+
+/* DateTime fields */
+.aab-datetime {
+    padding: 5px 10px;
+    width: 200px;
+    max-width: 100%;
+}
+
+/* Schedule fields */
+.aab-field-wrap[id*="schedule_"] {
+    margin-left: 20px;
+}
+
+/* Hide schedule fields when scheduling is disabled */
+.aab-schedule-fields {
+    display: none;
+}
+
+.aab-schedule-enabled .aab-schedule-fields {
+    display: block;
+}

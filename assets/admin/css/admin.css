@@ -1,0 +1,132 @@
+/* Admin Settings Page */
+.aab-settings-wrap {
+    max-width: 960px;
+    margin: 0;
+    padding: 24px;
+}
+
+.aab-settings-wrap h1 {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.aab-settings-wrap .form-table {
+    display: block !important;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+/* Settings Form */
+.aab-settings-form {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    padding: 24px;
+}
+
+.aab-settings-form h2 {
+    margin: 0;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+
+/* Section Wrappers */
+.aab-settings-form .form-table {
+    display: block !important;
+    margin: 0 0 24px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    padding: 16px;
+    background: #fff;
+    width: 100%;
+}
+
+.aab-settings-form .form-table th,
+.aab-settings-form .form-table td {
+    display: block;
+    padding: 15px;
+    width: 100%;
+}
+
+.form-table th {
+    padding: 16px 10px 16px 0;
+    width: 200px;
+    color: #1e1e1e;
+    font-weight: 500;
+}
+
+.form-table td {
+    padding: 16px 10px;
+}
+
+/* Fields */
+.regular-text {
+    border: 1px solid #757575;
+    border-radius: 2px;
+    padding: 6px 8px;
+    font-size: 13px;
+    line-height: 1.5;
+    width: 25em;
+    max-width: 100%;
+}
+
+select {
+    min-width: 200px;
+    border: 1px solid #757575;
+    border-radius: 2px;
+    padding: 6px 24px 6px 8px;
+    font-size: 13px;
+    line-height: 1.5;
+    height: auto;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M5 6l5 5 5-5 2 1-7 7-7-7 2-1z" fill="%23555"/></svg>');
+    background-position: right 5px top 55%;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    cursor: pointer;
+}
+
+/* Color Picker */
+.wp-picker-container {
+    position: relative;
+    display: inline-block;
+}
+
+.wp-picker-container .wp-color-result.button {
+    height: 32px;
+    border-radius: 2px;
+    margin: 0;
+}
+
+/* Editor */
+.wp-editor-wrap {
+    margin-bottom: 24px;
+    border: 1px solid #e0e0e0;
+}
+
+/* Submit Button */
+.aab-settings-form .submit {
+    margin: 24px 0 0;
+    padding: 16px 0 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.aab-settings-form .button-primary {
+    background: #007cba;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 16px;
+    height: auto;
+    line-height: 1.5;
+    transition: all 0.2s ease;
+}
+
+.aab-settings-form .button-primary:hover {
+    background: #006ba1;
+}
